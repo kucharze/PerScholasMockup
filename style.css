@@ -1,0 +1,22 @@
+@keyframes colorchange {
+  0% {
+    background-color: aliceblue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+@media (max-width: 2180px) {
+}
+
+.applyNow {
+  background-color: blue;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
+.apply {
+  margin-left: 20px;
+}
