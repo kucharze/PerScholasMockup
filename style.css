@@ -1,9 +1,14 @@
-@keyframes colorchange {
+@keyframes backchange {
   0% {
-    background-color: aliceblue;
+    /* transform: translateX(440px); */
+    background: #fff;
+  }
+  50% {
+    background: #ebdd14;
   }
   100% {
-    background-color: green;
+    /* transform: translateX(440px); */
+    background: #fff;
   }
 }
 
@@ -19,4 +24,7 @@
 }
 .apply {
   margin-left: 20px;
+  animation: backchange infinite 4s;
+  background-color: white;
+  font-size: 25px;
 }
