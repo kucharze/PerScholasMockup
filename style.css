@@ -14,17 +14,10 @@
 
 @keyframes buttonChange {
   0% {
+    background: #ebdd14;
   }
   100% {
-  }
-}
-
-@keyframes scaleChange {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(1.2);
+    background: #ea6812;
   }
 }
 
@@ -151,6 +144,15 @@
   .videoImage {
     height: 400px;
     margin-bottom: 20px;
+  }
+  .about {
+    padding-left: 20px;
+    background-color: white;
+    width: 35%;
+    display: flex;
+    border-left: solid lightgray;
+    flex-direction: column;
+    padding-left: 50px;
   }
 }
 
