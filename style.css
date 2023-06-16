@@ -230,10 +230,10 @@
     background-size: cover;
   }
   .tekSystems {
-    height: 80px;
+    height: 50px;
   }
   .nagarro {
-    height: 80px;
+    height: 50px;
   }
   .wellsFargo {
     display: none;
@@ -404,4 +404,7 @@ body {
   width: 45%;
   font-size: 18px;
   margin-right: 50px;
+}
+.show {
+  display: block;
 }
