@@ -405,6 +405,10 @@ body {
   font-size: 18px;
   margin-right: 50px;
 }
+.learning {
+  display: none;
+}
+
 .show {
   display: block;
 }

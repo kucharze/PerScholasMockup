@@ -1,5 +1,9 @@
 const showDonate = () => {
   let don = document.querySelector(".donated");
   don.classList.toggle("show");
-  console.log("Donated");
+};
+
+const showLearn = () => {
+  let don = document.querySelector(".learning");
+  don.classList.toggle("show");
 };
