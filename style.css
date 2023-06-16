@@ -35,6 +35,9 @@
     display: flex;
     justify-content: center;
   }
+  .tab {
+    font-size: 18px;
+  }
   .left {
     width: 50%;
   }
@@ -77,7 +80,26 @@
     height: 40px;
   }
   .videoImage {
-    height: 800px;
+    height: 700px;
+    margin-bottom: 20px;
+  }
+  .support {
+    background-color: rgb(51, 105, 213);
+    height: 450px;
+    color: white;
+    display: flex;
+  }
+  .courseList {
+    height: 200px;
+    display: flex;
+  }
+  .about {
+    padding-left: 20px;
+    background-color: white;
+    width: 35%;
+    display: flex;
+    border-left: solid lightgray;
+    padding-left: 50px;
   }
 }
 
@@ -87,6 +109,9 @@
     color: white;
     display: block;
     justify-content: center;
+  }
+  .tab {
+    display: none;
   }
   .mainImages {
     display: block;
@@ -109,11 +134,9 @@
     background-image: url("https://perscholas.org/wp-content/uploads/2023/05/perscholas_main_servicesfeature1.jpg");
     background-size: cover;
   }
-
   .tekSystems {
     height: 80px;
   }
-
   .nagarro {
     height: 80px;
   }
@@ -125,9 +148,9 @@
   .Agilant {
     display: none;
   }
-
-  .glass {
-    height: 40px;
+  .videoImage {
+    height: 400px;
+    margin-bottom: 20px;
   }
 }
 
@@ -147,9 +170,6 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.tab {
-  font-size: 18px;
-}
 
 .glass:hover {
   animation: scaleChange forwards 3s;
@@ -164,15 +184,17 @@ body {
   margin-bottom: 40px;
   padding-left: 50px;
   padding-bottom: 30px;
+  padding-right: 20px;
 }
 .start {
-  background-color: orange;
+  background-color: yellow;
   width: 90%;
   height: 30px;
+  font-size: 20px;
 }
 .Donate {
-  background-color: orange;
-  width: 20%;
+  background-color: yellow;
+  width: 40%;
   height: 50px;
   font-size: 20px;
   margin-bottom: 30px;
@@ -206,12 +228,7 @@ body {
   align-items: center;
   padding-bottom: 50px;
 }
-.support {
-  background-color: rgb(51, 105, 213);
-  height: 450px;
-  color: white;
-  display: flex;
-}
+
 .leftImg {
   width: 30%;
 }
@@ -237,10 +254,7 @@ body {
   padding-left: 20px;
   padding-top: 10px;
 }
-.courseList {
-  height: 200px;
-  display: flex;
-}
+
 .c {
   width: 100%;
   background-color: white;
@@ -248,21 +262,13 @@ body {
   padding-left: 20px;
   padding-top: 10px;
 }
-.about {
-  padding-left: 20px;
-  background-color: white;
-  width: 35%;
-  display: flex;
-  border-left: solid lightgray;
-  padding-left: 50px;
-  /* flex-direction: column; */
-  /* flex-wrap: wrap; */
-}
+
 .row1,
 .row2,
 .row3 {
-  width: 40%;
+  width: 45%;
   font-size: 18px;
+  margin-right: 50px;
 }
 /* .videoImage:hover {
   transform: scale(1.2);
