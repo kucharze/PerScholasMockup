@@ -313,6 +313,9 @@ body {
 }
 .videocontainer {
   overflow: hidden;
+  width: 40%;
+  height: 700px;
+  /* border: solid green; */
 }
 .glass:hover {
   animation: scaleChange forwards 3s;
@@ -361,6 +364,9 @@ body {
 }
 .video {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .navbar {
   background-color: white;
