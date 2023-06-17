@@ -121,6 +121,57 @@
   .select {
     display: flex;
   }
+  .emailSection {
+    background-color: white;
+    height: 100px;
+    margin-top: 5px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    align-items: center;
+  }
+  .questions {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .email {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+  }
+  .email p {
+    padding-left: 10px;
+  }
+  .admission {
+    display: flex;
+    padding-left: 140px;
+    align-items: center;
+  }
+  .admission p {
+    padding-left: 10px;
+  }
+  .socials {
+    display: flex;
+    align-items: center;
+  }
+  .twitter {
+    height: 90px;
+    margin-left: 20px;
+  }
+  .facebook {
+    height: 60px;
+    margin-left: 20px;
+  }
+  .instagram {
+    height: 60px;
+    margin-left: 20px;
+  }
+  .linkedin {
+    height: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -195,6 +246,27 @@
     flex-direction: column;
     padding-left: 150px;
     width: 40%;
+  }
+  .emailSection {
+    background-color: white;
+    height: 250px;
+    margin-top: 5px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .questions {
+    display: flex;
+    /* justify-content: flex-start; */
+    flex-direction: column;
+  }
+  .admission {
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
   }
 }
 
@@ -289,6 +361,34 @@
     height: 400px;
     display: flex;
     flex-direction: column;
+  }
+  .emailSection {
+    background-color: white;
+    height: 200px;
+    margin-top: 5px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .twitter {
+    height: 70px;
+    margin-left: 20px;
+  }
+  .facebook {
+    height: 40px;
+    margin-left: 20px;
+  }
+  .instagram {
+    height: 40px;
+    margin-left: 20px;
+  }
+  .linkedin {
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 
