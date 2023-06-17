@@ -172,6 +172,49 @@
     margin-left: 20px;
     margin-right: 20px;
   }
+  .bottom {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 200px;
+  }
+  #EmailAddress {
+    height: 50px;
+    font-size: 20px;
+    width: 65%;
+  }
+  .report {
+    width: 50%;
+  }
+  .copyright {
+    padding-right: 20px;
+  }
+  .awards {
+    display: flex;
+  }
+  .charity {
+    height: 80px;
+    margin-left: 20px;
+  }
+  .transparency {
+    height: 80px;
+    margin-left: 20px;
+  }
+  .nonprofit {
+    height: 80px;
+    margin-left: 20px;
+  }
+  .phil {
+    height: 80px;
+    margin-left: 20px;
+  }
+  .perscholas {
+    font-size: 12px;
+  }
+  .discrim {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 1500px) {
@@ -449,6 +492,17 @@ body {
   margin-bottom: 30px;
 }
 .Donate:hover {
+  animation: buttonChange 2s forwards;
+}
+.Signup {
+  background-color: yellow;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  margin-lef: 20px;
+}
+.Signup:hover {
   animation: buttonChange 2s forwards;
 }
 .donated {
